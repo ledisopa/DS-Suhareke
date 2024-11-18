@@ -1,0 +1,12 @@
+.slider-paragraph {
+    background-color: red ;
+     padding:70px;
+      margin: 90px ;
+    }
+    .bg-img{
+      background:url(img.png)
+    }
+    .border{
+      border: 2px ;
+      border: solid;
+    }
