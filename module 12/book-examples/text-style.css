@@ -1,0 +1,8 @@
+ .text-style{
+    color: red;
+    letter-spacing: 15px;
+word-spacing: 20px;
+text-decoration: solid;
+text-align: justify;
+font-size: 40px;
+}
