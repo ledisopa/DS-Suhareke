@@ -2,6 +2,7 @@
     background-color:blue;
     padding:20px;
     color:white;
+}
     
 .by-img {
         background:url("houses.png")
@@ -15,4 +16,7 @@
             background-color:black;
             color:white;
         }
-    }
+        .border-solid{
+            border: 2px solid black;
+        }
+
