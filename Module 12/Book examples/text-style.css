@@ -1,0 +1,9 @@
+.text-style{
+    color:green;
+    letter-spacing:20px;
+    word-spacing:10px;
+    text-decoration:wavy;
+    text-align:left;
+    font-size:50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
