@@ -10,3 +10,7 @@
       border: 2px ;
       border: solid;
     }
+    .border-solid{
+     border: 20px solid green;
+
+    }
