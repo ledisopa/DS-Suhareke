@@ -5,4 +5,9 @@ word-spacing: 20px;
 text-decoration: solid;
 text-align: justify;
 font-size: 40px;
+font-family: 'roboto';
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('./EduAUVICWANTPre-Regular.ttf');
 }
