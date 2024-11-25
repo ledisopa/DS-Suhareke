@@ -5,5 +5,15 @@
     text-decoration:wavy;
     text-align:left;
     font-size:50px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "body-text"
 }
+
+   @font-face{
+    font-family: "body-text";
+    src: url(./fonts/Bokor-Regular.ttf);
+   }
+    .font-class{
+        font-family:"body-text";
+        font-size:16px;
+        font-weight:400px;
+    }
