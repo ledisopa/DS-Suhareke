@@ -11,3 +11,16 @@ font-family: 'roboto';
     font-family: 'roboto';
     src: url('./EduAUVICWANTPre-Regular.ttf');
 }
+a{
+color: yellow;
+text-underline-position: below;
+}
+a:link{
+    color: brown;
+}
+  a:visited{
+    color: darkorchid;
+} 
+a:hover{color: rgb(6, 179, 0);} 
+a:active{ color: lavenderblush;}
+
