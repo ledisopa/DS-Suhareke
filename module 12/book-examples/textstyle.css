@@ -4,3 +4,9 @@
     font-family: 'body-text';
     src: url(./font/Montserrat-Regular.ttf);
 }
+
+a{color: blue;}
+a:link{color: brown;}
+a:visited{color: rgb(115, 255, 0);}
+a:hover{color: orange;}
+a:active{color: yellow;}
