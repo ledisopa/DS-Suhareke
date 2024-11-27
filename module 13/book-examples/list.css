@@ -1,0 +1,4 @@
+.module13{list-style: circle;}
+.module13 ol{border-bottom: 17px solid red;}
+.module13 ul{list-style-image:style url(./download.png);list-style-position: inside;}
+td,th{border : 1px solid; padding : 20px;border-collapse: collapse;}
