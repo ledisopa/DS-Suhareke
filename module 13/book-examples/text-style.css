@@ -15,7 +15,13 @@ border: 2px solid;
 padding: 20px;
 border-collapse: collapse;
 }
-table tr:nth-child(odd){
-    background-color: rebeccapurple;
+table tbody tr:nth-child(odd){
+    background-color:#a9ffea;
     color: red;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    overflow:scroll;
 }
