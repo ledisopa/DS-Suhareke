@@ -2,3 +2,5 @@
 .module13 ol{border-bottom: 17px solid red;}
 .module13 ul{list-style-image:style url(./download.png);list-style-position: inside;}
 td,th{border : 1px solid; padding : 20px;border-collapse: collapse;}
+table tbody tr:nth-child(odd){background-color: blue; color: brown;}
+div{width: 200px; height: 200px;background-color: aqua;overflow-y:auto ;}
