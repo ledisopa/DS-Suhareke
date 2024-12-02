@@ -24,3 +24,24 @@ table tr:nth-child(even){
     background-color: blue;
     color: white;
 }
+.blin tr:nth-child(even){
+    background-color: green;
+    color: white;
+}
+.blin tbody>tr:nth-child(odd){
+    list-style-type:square;
+    color:white;
+    letter-spacing:10px;
+    word-spacing:5px;
+    text-decoration:wavy;
+    text-align:left;
+    font-size:10px;
+    font-family: "body-text";
+    background-color: black;
+}
+div{
+    width:10%;
+    height: 200px;
+    background-color: blueviolet;
+    overflow:scroll; 
+}
