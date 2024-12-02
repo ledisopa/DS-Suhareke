@@ -1,20 +1,14 @@
-h1{
-    text-underline-position: below; color: lavender;
-text-decoration: underline;
+ul{
+    word-spacing: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    border: 20px solid red
 }
-h2{
-    color: greenyellow; text-underline-position: below;
-    text-decoration: underline;
-}
-h3{
-    color: goldenrod;text-underline-position: below;
-text-decoration: underline;
-}
-h4{
-    color: forestgreen;text-underline-position: below;
-text-decoration: underline;
-}
-p{
-    color: red;text-underline-position: below;
-text-decoration: underline;
+ol{
+    word-spacing:20px ;
+    font-size: medium;
+    font-family: serif;
+    background-color: cyan;
+    border: 30px solid green;
 }
