@@ -1,0 +1,30 @@
+ article p:first-child {
+    border:20px solid red;
+    background-color: blue;
+}
+article>div{
+    border: 30px solid green;
+    background-color: aqua;
+}
+ article+p{
+    border: 30px solid rgb(128, 0, 0);
+    background-color: rgb(30, 255, 0);
+ }
+ article~p{
+    border: 30px solid rgb(80, 66, 66);
+    background-color: rgb(233, 214, 214);
+ }
+input:focus{
+    border: 30px solid red;
+    background-color: blue;
+}
+p:first-of-type{
+    border:20px solid blue;
+    background-color: blueviolet;
+}
+.p::first-letter{
+    color: blue;
+}
+p{
+    opacity: 0.1;
+}
