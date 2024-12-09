@@ -1,0 +1,16 @@
+.static{
+    border: 1px solid red;
+    width: 200;
+    height: 200;
+    position: static;
+    padding: 10px;
+}
+.relativ{
+    border: 5px solid green;
+    width: 300;
+    height: 300;
+    position: relative;
+    padding: 10px;
+    left: 500;
+    top: 50;
+}
