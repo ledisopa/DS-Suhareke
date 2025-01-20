@@ -1,0 +1,35 @@
+body{
+    counter-reset: number;
+}
+h2{
+    counter-increment: number;
+    content: counter(number);
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.div1{
+    border:20px solid red;
+    height: 200px;
+    width: 200px;
+    border-image: url(iphone111.jpg)25 25 round;
+    
+}
+.div2{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    box-shadow:2px 2px 4px 5px #eee ;
+}
+.div3{
+    width: 300px;
+    padding: 20px;
+    background: url(iphone111.jpg)
+    top center / 200px 200px
+    no-repeat
+    fixed
+    padding-box
+    content-box;
+}
