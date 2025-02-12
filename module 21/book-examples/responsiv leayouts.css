@@ -1,0 +1,8 @@
+@media (max-width 600px){
+.responsivlayout{width: 100%;}
+.side{width: 100%;}
+}
+@media(min-width 900px ){
+  .responsivlayout{width:80% ;}
+  .side{width:20%;}
+}
