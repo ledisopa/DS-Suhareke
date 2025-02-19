@@ -1,0 +1,5 @@
+.logo{
+    table-layout: fixed;
+    display: flex;
+    align-items: flex-start;
+}
