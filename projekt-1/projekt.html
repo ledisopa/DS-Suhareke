@@ -1,57 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
 <link rel="stylesheet" href="projekt.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <form d="login-form">
-        <label> <form action="username">username</label><br>
-        <input type="text" name="username"><br>
-        <label for="pwd">pasword</label><br>
-        <input type="pasword" name="pasword"><br>
-        <label for="gender">gender</label><br>
-        <input type="radio" name="gender" value="male">
-       <label for="gender">male</label><br>
-        <input type="radio" name="gender" value="female">
-       <label for="gender">femail</label><br>
-       <label for="hobies">hobis</label><br>
-       <input type="checkbox" name="hobies" value="voleyball">
-       <label for="hobies"></label>voleyball</label><br>
-       <input type="checkbox" name="hobies" value="football">
-       <label for="hobies"></label>football</label><br>
-       <input type="checkbox" name="hobies" value="tenis">
-       <label for="hobies"></label>tenis</label><br>
-       <input type="checkbox" name="hobies" value="ping pong">
-       <label for="hobies"></label>ping pong</label><br>
-       <selection name="pet" width="400">
-        <option value="dog"dog></option>
-        <option value="cat"cat></option></selection><br>
-        <label for="mesage"mesage></label><br>
-        <textarea rows="30" cols="20"></textarea>
-        <p>.</p>
-        <input type="month"trying>
-        <label for="date">date</label><br>
-        <input type="number"number>
-        <label for="number">number</label><br>
-        <input type="range"range>
-        <label for="range">range</laber><br>
-        <input type="image"image>
-        <label for="image">label</label><br> 
-        <input type="file" file>
-        <label for="file">file</label><br>
-        <input type="search"search>
-        <label for="search">search</label>
-        <input type="text"placeholder="name">
-        <input type="text"disabled value="i am readonly">
+    <header>
+    <div class="logo">
+        <img src="facebook-logo.webp" alt=".">
+    </div>
+    </header>
+
+    <div class="login">
+        <form id="loginForm">
+          <h2>Login</h2>
     
-            
-       <input type="submit">
-     
+          <div class="login1">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+          </div>
     
+          <div class="login1">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+
+          <div class="login1">
+            <label for="g-mail">Password:</label>
+            <input type="g-mail" id="g-mail" name="g-mail" required>
+          </div>
     
-    </form> 
+          <button type="submit">Login</button>
+          <div id="error-message"></div>
+        </form>
+      </div>
 </body>
 </html>
