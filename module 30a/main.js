@@ -55,5 +55,6 @@ function updateClock(){
     var sleepTimeSelector=document.getElementById('sleepTimeSelector');
     sleepTime = sleepTimeSelector.value;
 }
-var saveButton = document.getElementById("save button");
+var saveButton = document.getElementById("save button");    var dsTimeSelector = document.getElementById('dsTimeSelector');
+
 saveButton.addEventListener("click",updateClock);
