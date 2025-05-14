@@ -19,3 +19,4 @@
     document.querySelector('p').innerHTML=
     names[Math.floor(Math.random() names.length)];
 }
+

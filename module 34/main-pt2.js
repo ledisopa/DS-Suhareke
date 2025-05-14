@@ -18,7 +18,7 @@ circle.onclick = function (){
     circle.style.display='none';
     setTimeout(showCircle,1000);
     var timeEnd=new Date().getTime();
-    var time=(timeEnd - timeStart)/1000;
+    var time=(timeEnd - timestart)/1000;
     ShowTime.innerHTML = time + 's';
 }
 
