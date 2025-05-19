@@ -1,0 +1,38 @@
+:root{
+    --primary-color:green;
+    --secondary-color:blue;
+    --spacing-inside-menu-items:20px
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    padding: 5px 10px;
+    border: solid gray;
+ -webkit-box-shadow:80px 80px 5px 1px rgba(221,13,1)   ;
+ -moz-box-shadow:80px 80px 5px 1px rgba(221,13,1);
+ box-shadow:80px 80px 5px 1px rgba(221,13,1);
+ left: 0;
+ top:20px;
+}
+.dropdown a:hover + .dropdown-content{
+    display: inline-block;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+}
+.tooltip-text{
+    visibility: hidden;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+}

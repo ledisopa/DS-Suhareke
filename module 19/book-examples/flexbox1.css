@@ -1,0 +1,28 @@
+.flex-container{
+    display: flex;
+    background-color: blue;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  height: 300px;
+  align-self:flex-end;
+}
+.flex-container > div{
+    padding: 20px;
+    margin: 15px;
+    color: white;
+    border: 1px solid white;
+    align-self: baseline;
+}
+.flex-container > div:nth-child(1){
+  
+}
+/*.flex-container > div:nth-child(2){
+    
+}
+.flex-container > div:nth-child(3){
+   
+}
+.flex-container > div:nth-child(4){
+    
+} 

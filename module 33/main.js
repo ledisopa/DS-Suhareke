@@ -43,7 +43,11 @@ function validation (){
         return false;
     }else{
         document.getElementById("name_error").style.visibility="hidden";
+<<<<<<< HEAD
         document.getElementById("name").style.borderColor="black";
+=======
+    document.getElementById("name").style.borderColor="black";
+>>>>>>> 9984fa72d7b2e5ff54aa927611255b4d5413caed
         document.getElementById("age_error").style.visibility="hidden";
         document.getElementById("age").style.borderColor="black";
         document.getElementById("city_error").style.visibility="hidden";

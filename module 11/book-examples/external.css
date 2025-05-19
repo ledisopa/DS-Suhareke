@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .slider-paragraph {
     background-color: red ;
      padding:70px;
@@ -14,3 +15,9 @@
      border: 20px solid green;
 
     }
+=======
+.slider-paragraph {  background-color: red; padding:20px;  margin:40px; }
+.bg-img{background:url(img.png)}
+.border{border: 2px ;border: solid;}
+.border-solid{border : 20px solid green;}
+>>>>>>> 9984fa72d7b2e5ff54aa927611255b4d5413caed

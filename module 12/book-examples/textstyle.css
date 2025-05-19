@@ -1,0 +1,12 @@
+.text-style{ color : green; letter-spacing: 10px; word-spacing: 15px; text-decoration: underline; text-align: center; font-size: 60px; font-family: 'body-text';}
+
+@font-face{
+    font-family: 'body-text';
+    src: url(./font/Montserrat-Regular.ttf);
+}
+
+a{color: blue;}
+a:link{color: brown;}
+a:visited{color: rgb(115, 255, 0);}
+a:hover{color: orange;}
+a:active{color: yellow;}
