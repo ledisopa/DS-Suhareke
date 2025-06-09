@@ -7,5 +7,5 @@ if(extractedWord){
     console.log("ExtractedWord:", extractedWord);
 
 }else{
-    console.log("No valid extracted word found")
+    console.log("No valid extracted word found.");
 }
