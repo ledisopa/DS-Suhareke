@@ -1,3 +1,4 @@
-var names=['ledi','eros','genti'];
-
-console.log(names[1]);
+document.getElementById('submit').addEventListener('click', ()=>{
+    const name = document.getElementById('name').value;
+    const age = document.getElementById('age').value;
+})
